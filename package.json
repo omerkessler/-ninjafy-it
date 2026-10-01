@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "typecheck": "tsc -p . --noEmit",
-    "preview": "npm run build && wrangler pages dev dist"
+    "preview": "npm run build && wrangler dev"
   },
   "dependencies": {
     "lucide-react": "^0.469.0",
